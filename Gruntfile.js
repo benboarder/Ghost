@@ -1,6 +1,4 @@
 // # Gruntfile - Task automation for Ghost
-// Run various tasks when developing for and working with Ghost
-// Run `grunt --help` or visit https://github.com/TryGhost/Ghost/wiki/Grunt-Toolkit/ for usage instructions
 
 var path           = require('path'),
     when           = require('when'),
@@ -117,7 +115,6 @@ var path           = require('path'),
             },
 
             // ### Config for grunt-contrib-jshint
-            // JSHint all the things!
             jshint: {
                 server: {
                     options: {
